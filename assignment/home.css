@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(3.png);
+    background-color:;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.des{
+    font-weight: bolder;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(url(3.jpg));
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+    
+}
+
+
+.menue{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s ease;
+}
+
+ul li a:hover{
+    color: #331311;
+    background-color: yellow;
+    transform: translateY(-7px);
+    font-size: 20px;
+    height: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s;
+    border-bottom: #331311;
+}
+
+
+
+.btn{
+    border: 2px solid rgb(0, 255, 21);
+    background: blue;
+    width: 100px;
+    height: 40px;
+    color: rgb(248, 245, 245);
+    font-size: 15px;
+    margin-top: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aqua;
+    position: relative ;
+}
+
+.content .par{
+    padding-left: 0px;
+    padding-bottom: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content.h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding-left: 0px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+} 
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    margin-left: 0px;
+    height: auto;
+    
+
+}
+
+.title h1{
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding-left:px ;
+
+    
+}
+.scn{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+.title .par{
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing:;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+.des{
+    padding-left: 0px;
+    margin-top: 10px;
+
+}
+
+
+.button{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+
+}
+.btn:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+    background-color: yellow;
+    color: #000;
+    border-color: #ff3700;
+}
+
+.btn1:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+    background-color: yellow;
+    color: #000;
+    border-color: #ff3700;
+}
+
+.btn,.btn1{
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    background: red;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.form{
+    width: 250px;
+    height: 460px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: relative;
+    top: 200px;
+    left: 1070px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff3700;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 55px;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 47, 0);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif
+}
+
+.form input:focus{
+    outline: none;
+
+}
+
+::placeholder{
+    color: aliceblue;
+    font-family:Arial ;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    text-decoration: none;
+    font-family: ;
+
+}
+
+.btnn:hover{
+    background: white;
+    color: rgb(0, 255, 72);
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.form . link a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: rgb(0, 255, 68);
+}
+
